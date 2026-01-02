@@ -52,7 +52,7 @@ export default function Home() {
         </section>
 
       
-        <div className="relative mr-20">
+        <div className="relative mr-20 ">
           <div className="w-80 h-80 rounded-full bg-gradient-to-tr from-blue-500 to-cyan-400 p-1 shadow-2xl animate-float">
             <div className="w-full h-full rounded-full overflow-hidden bg-white">
               <img
@@ -65,6 +65,93 @@ export default function Home() {
         </div>
 
       </main>
+      <div className="bg-white py-10 ">
+  <h1 className="text-3xl text-blue-700 font-extrabold ml-40 mb-4 ">
+    About Me
+  </h1>
+
+  <p className="ml-40 max-w-3xl text-gray-700 text-lg leading-relaxed tracking-wide font-stretch-extra-expanded font-semibold">
+    I’m a passionate front-end developer focused on building clean,
+    responsive, and user-friendly web applications. I enjoy turning
+    ideas into real products using modern technologies like React,
+    Tailwind CSS, and Git. I’m constantly learning and improving my
+    skills to create efficient and visually appealing digital
+    experiences.
+  </p>
+</div>
+<div className="bg-white py-10">
+  <h1 className="text-3xl text-blue-700 font-extrabold ml-40 mb-6">
+    Skills
+  </h1>
+
+  <div className="ml-40 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl">
+    
+    <div className="p-6 bg-gray-50 rounded-xl shadow transition-all duration-300 ease-out
+  hover:-translate-y-2 
+  hover:shadow-xl 
+  hover:bg-white
+  hover:border-blue-500
+  border border-transparent ">
+      <h3 className="font-bold text-lg text-blue-700 mb-2">Frontend</h3>
+      <p className="text-gray-700">
+        HTML, CSS, JavaScript, React, Tailwind CSS
+      </p>
+    </div>
+
+   
+    <div className="p-6 bg-gray-50 rounded-xl shadow transition-all duration-300 ease-out
+  hover:-translate-y-2 
+  hover:shadow-xl 
+  hover:bg-white
+  hover:border-blue-500
+  border border-transparent">
+      <h3 className="font-bold text-lg text-blue-700 mb-2">Programming</h3>
+      <p className="text-gray-700">
+        C, C++, Python
+      </p>
+    </div>
+
+   
+    <div className="p-6 bg-gray-50 rounded-xl shadow transition-all duration-300 ease-out
+  hover:-translate-y-2 
+  hover:shadow-xl 
+  hover:bg-white
+  hover:border-blue-500
+  border border-transparent">
+      <h3 className="font-bold text-lg text-blue-700 mb-2">Python & Data</h3>
+      <p className="text-gray-700">
+        Pandas, NumPy, pyttsx3 (Text-to-Speech)
+      </p>
+    </div>
+
+   
+    <div className="p-6 bg-gray-50 rounded-xl shadow transition-all duration-300 ease-out
+  hover:-translate-y-2 
+  hover:shadow-xl 
+  hover:bg-white
+  hover:border-blue-500
+  border border-transparent">
+      <h3 className="font-bold text-lg text-blue-700 mb-2">Tools</h3>
+      <p className="text-gray-700">
+        Git, GitHub, VS Code, cursor, Replit, firebase
+      </p>
+    </div>
+
+   
+    <div className="p-6 bg-gray-50 rounded-xl shadow transition-all duration-300 ease-out
+  hover:-translate-y-2 
+  hover:shadow-xl 
+  hover:bg-white
+  hover:border-blue-500
+  border border-transparent">
+      <h3 className="font-bold text-lg text-blue-700 mb-2">Other</h3>
+      <p className="text-gray-700">
+        Responsive Design, Debugging, UI/UX Basics
+      </p>
+    </div>
+  </div>
+</div>
+
     </>
   );
 }
